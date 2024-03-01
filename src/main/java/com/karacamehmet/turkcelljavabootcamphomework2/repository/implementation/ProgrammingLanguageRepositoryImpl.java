@@ -10,7 +10,19 @@ import java.util.List;
 @Repository
 public class ProgrammingLanguageRepositoryImpl implements ProgrammingLanguageRepository {
 
-    private final List<ProgrammingLanguage> programmingLanguages = new ArrayList<>();
+    private final List<ProgrammingLanguage> programmingLanguages;
+
+    public ProgrammingLanguageRepositoryImpl() {
+        this.programmingLanguages = new ArrayList<>();
+        programmingLanguages.add(new ProgrammingLanguage(0,"Java"));
+        programmingLanguages.add(new ProgrammingLanguage(1,"C"));
+        programmingLanguages.add(new ProgrammingLanguage(2,"C++"));
+        programmingLanguages.add(new ProgrammingLanguage(3,"C#"));
+        programmingLanguages.add(new ProgrammingLanguage(4,"Python"));
+        programmingLanguages.add(new ProgrammingLanguage(5,"JavaScript"));
+        programmingLanguages.add(new ProgrammingLanguage(6,"Kotlin"));
+        programmingLanguages.add(new ProgrammingLanguage(7,"Swift"));
+    }
 
     //adding the programming language to the list
     @Override
