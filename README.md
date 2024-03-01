@@ -1,6 +1,8 @@
 # Turkcell Java Bootcamp Homework-2
 
-This repository is dedicated to Turkcell Java Bootcamp Homework-2.
+This repository is dedicated to Turkcell Java Bootcamp Homework-2. Go
+to [swagger](http://localhost:8080/swagger-ui/index.html#/) page after running the application to check out the
+endpoints.
 
 ### Homework Medium Articles
 
